@@ -1,0 +1,71 @@
+2026-03-12 2735aab refactored text and cells and added readme
+
+ Mandelbrot_set.ipynb | 338 ++++++++++++++++++++++++++++++++++++---------------
+ README.md            |  24 +++-
+ timing_results.csv   |  20 +--
+ 3 files changed, 270 insertions(+), 112 deletions(-)
+2026-03-12 7492d59 refactored cells disposition and text
+
+ Mandelbrot_set.ipynb | 315 +++++++++++++--------------------------------------
+ 1 file changed, 78 insertions(+), 237 deletions(-)
+2026-03-12 4e722a8 added speedup analysis graph and more resolutions
+
+ Mandelbrot_set.ipynb | 223 ++++++++++++++++++++++++++++++++++++++-------------
+ timing_results.csv   |  15 ++--
+ 2 files changed, 177 insertions(+), 61 deletions(-)
+2026-03-12 f410b25 added speedup metric to confront the performance of the different implementations
+
+ Mandelbrot_set.ipynb | 125 ++++++++++++++++++++++++++++++++++-----------------
+ timing_results.csv   |  12 ++---
+ 2 files changed, 90 insertions(+), 47 deletions(-)
+2026-03-12 180cea0 added visualization of the set for all the implementations to verify correctness
+
+ Mandelbrot_set.ipynb | 117 ++++++++++++++++++++++++++++++++++++---------------
+ 1 file changed, 82 insertions(+), 35 deletions(-)
+2026-03-11 d33c341 added reasoning and interpretation of the resullts
+
+ Mandelbrot_set.ipynb | 78 ++++++++++++++++++++++++++++++++++++----------------
+ 1 file changed, 54 insertions(+), 24 deletions(-)
+2026-03-11 d6154bd added scaling analysis description
+
+ Mandelbrot_set.ipynb | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+2026-03-10 3057d60 added the description of the project and the different implementations
+
+ Mandelbrot_set.ipynb | 26 +++++++++++++++++++++++---
+ 1 file changed, 23 insertions(+), 3 deletions(-)
+2026-03-10 4e40b6f added creation of csv file with the timing results for the different impemetations
+
+ Mandelbrot_set.ipynb | 75 ++++++++++++++++++++++++++--------------------------
+ timing_results.csv   |  6 +++++
+ 2 files changed, 44 insertions(+), 37 deletions(-)
+2026-03-09 c5fa2ac added plot of execution time of the different implementations for different scale
+
+ Mandelbrot_set.ipynb | 102 +++++++++++++++++++++++++++++++++++----------------
+ 1 file changed, 71 insertions(+), 31 deletions(-)
+2026-03-09 1bd8dcb added scaling analysis comparing timing results for naive, numpy and numba implementations for different resolutions
+
+ Mandelbrot_set.ipynb | 173 ++++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 163 insertions(+), 10 deletions(-)
+2026-03-09 c2957ba added numba implementation and execution time measurement
+
+ Mandelbrot_set.ipynb | 86 +++++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 79 insertions(+), 7 deletions(-)
+2026-03-06 c15b541 added vectorized implementation  and execution time measurements
+
+ Mandelbrot_set.ipynb | 62 ++++++++++++++++++++++++++++++++++++++++++++++++----
+ 1 file changed, 58 insertions(+), 4 deletions(-)
+2026-03-06 61ec076 Merge pull request #1 from MateCle/naive-version
+2026-03-06 6f85df4 fixed naive implementation and added performance measurement
+
+ Mandelbrot_set.ipynb | 142 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 142 insertions(+)
+2026-03-05 59b481d added naive implementation
+
+ Mandelbrot_set.ipynb | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+2026-03-05 c7a8dbc Initial commit
+
+ .gitignore | 207 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md  |   1 +
+ 2 files changed, 208 insertions(+)
